@@ -1,0 +1,35 @@
+{
+  "name": "discord-leveling-bot",
+  "version": "2.0.0",
+  "description": "A feature-rich Discord bot with XP, leveling, economy, games, and more",
+  "main": "src/core/bot.js",
+  "scripts": {
+    "start": "node src/core/bot.js",
+    "dev": "node src/core/bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "leveling",
+    "xp",
+    "economy",
+    "games",
+    "nodejs"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "better-sqlite3": "^9.4.3",
+    "canvas": "^2.11.2",
+    "dotenv": "^16.3.1"
+  },
+  "engines": {
+    "node": ">=16.9.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/discord-leveling-bot.git"
+  }
+}
